@@ -51,7 +51,7 @@ public class JobConfiguration2 {
 			
 			String word = (String)mapper.get("outputText");
 			
-				System.out.println("another job " + word);
+				System.out.println("another job lala" + word);
 				
 				
 				return RepeatStatus.FINISHED;

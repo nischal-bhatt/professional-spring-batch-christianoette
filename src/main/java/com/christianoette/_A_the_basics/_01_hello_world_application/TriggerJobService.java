@@ -22,7 +22,7 @@ public class TriggerJobService {
 	
 	
 	
-	public TriggerJobService(JobLauncher jobLauncher,@MyJob2 Job job) {
+	public TriggerJobService(JobLauncher jobLauncher,@MyJob Job job) {
 		
 		this.jobLauncher = jobLauncher;
 		this.job = job;
